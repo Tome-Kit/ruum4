@@ -4,9 +4,9 @@ site: bookdown::bookdown_site
 author: "peacecop kalmer:"
 colorlinks: TRUE
 date: "`r Sys.Date()`"
-description: "This is the manual for creating content using RStudio Server."
+description: "academic paper on our LEARNING-INTERDISCIPLINARY-FOCUSED-ENVIRONMENT-project *Ruum4*"
 lang: en
-title: "Manual for creating content using RStudio Server"
+title: "Ruum4"
 
 documentclass: book
 papersize: a4

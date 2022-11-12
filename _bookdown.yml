@@ -1,12 +1,8 @@
-book_filename: "manual-for-rstudio"
+book_filename: "ruum4"
 new_session: false
 delete_merged_file: true
 rmd_files: [
   "index.Rmd",
-  "rmd/setup.Rmd",
-  "rmd/configuration.Rmd",
-  "rmd/rmd.Rmd",
-  "rmd/latex.Rmd",
-  "rmd/r.Rmd",
+  "rmd/tasks.Rmd",
   "references.Rmd"
 ]

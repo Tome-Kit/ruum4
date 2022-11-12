@@ -2,10 +2,7 @@ bookdown::bs4_book:
   css: style.css
   includes:
     in_header: js.html
-  repo: https://github.com/piiskop/manual-for-rstudio
-  # math_method: 
-  #   engine: mathjax
-  #   url: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js
+  repo: https://github.com/Tome-Kit/ruum4
 bookdown::pdf_book:
   includes:
     in_header: preamble.tex
