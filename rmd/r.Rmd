@@ -1,0 +1,627 @@
+# R
+
+## Assignment
+
+For assigning a value to a variable, i use `<-` unless the variable is a parameter or an argument - then i use `=`:
+
+```{r label = "assignment"}
+variable <- "value"
+
+name_of_function <- function(parameter = "value") {
+  
+}
+
+```
+
+## Debugging
+
+### Printing out a value
+
+```{r label = "print"}
+print(2)
+
+```
+
+### Datatype
+
+For figuring out the datatype `r render_with_emojis(text = "((ref:zach-2021-how))")`:
+
+```{r label = "datatype"}
+class(2)
+
+```
+
+### Datatype and value
+
+```{r label = "str"}
+str(2)
+
+```
+
+### Is the value not set?
+
+```{r label = "is-null"}
+is.null(variable)
+
+```
+
+### Converting to numeric
+
+```{r label = "as-numeric"}
+number = "3"
+str(number)
+
+numeric_number <- as.numeric(number)
+str(numeric_number)
+
+```
+
+
+### Stopping execution
+
+```{r label = "stop", eval = FALSE}
+stop("error message")
+
+```
+
+## Array
+
+### Creation
+
+An array can be created using the function `c`:
+
+```{r label = "array"}
+array <- c("value_1", "value_2")
+print(array)
+
+```
+
+### Referencing position
+
+Referencing a position inside the array takes place using brackets whereas the first position has the index `1`:
+
+```{r label = "array-referencing"}
+value_at_position_2 <- array[2]
+print(value_at_position_2)
+
+array[2] <- "value_3"
+print(array)
+
+```
+
+### Multidimensional array
+
+Arrays with the same length can be connected into `data.frame`:
+
+```{r label = "data.frame"}
+array_2 <- c("value_3", "value_4")
+data_frame <- data.frame(array, array_2)
+print(data_frame)
+
+```
+
+### Column names
+
+A `data.frame` can have column names:
+
+```{r label = "colnames"}
+colnames(data_frame) <- c(
+  "array",
+  "array 2"
+)
+
+print(data_frame)
+
+```
+
+### Adding column
+
+```{r label = "cbind"}
+cbind(data_frame, array_2)
+
+```
+
+### Row names
+
+```{r label = "rownames"}
+rownames(data_frame) <- c(
+  "Caption of first row",
+  "Caption of second row"
+)
+
+print(data_frame)
+
+```
+
+### Changing the look of a cell
+
+```{r label = "cell-spec"}
+librarian::shelf("kableExtra")
+coloured_cell <- cell_spec(data_frame[, 2], color = "red")
+
+```
+
+`r coloured_cell` `r render_with_emojis("((ref:cell-spec))")`
+
+### Changing the content
+
+```{r label = "mutate"}
+librarian::shelf("dplyr")
+mutate(data_frame, "array 2" = "mutated")
+
+```
+
+`r render_with_emojis("((ref:create))")`.
+
+### Size
+
+```{r label = "length"}
+length(data_frame)
+
+nrow(data_frame)
+
+```
+
+### Looping
+
+```{r label = "for"}
+
+for (index in 1:length(data_frame)) {
+  print(data_frame[index])
+}
+
+```
+
+### Subsetting
+
+```{r label = "subset"}
+
+t <- c(
+  60,
+  40,
+  40,
+  30,
+  40,
+  60,
+  40,
+  40,
+  60,
+  30,
+  30,
+  60,
+  40,
+  60,
+  40,
+  30,
+  40,
+  30,
+  40,
+  30,
+  30,
+  40,
+  40,
+  30,
+  40,
+  90,
+  40,
+  30,
+  40,
+  30
+)
+
+omega <- c(
+  1000,
+  800,
+  400,
+  800,
+  800,
+  1000,
+  1300,
+  800,
+  1000,
+  800,
+  800,
+  1300,
+  800,
+  1000,
+  400,
+  800,
+  800,
+  800,
+  400,
+  800,
+  800,
+  400,
+  800,
+  800,
+  400,
+  400,
+  400,
+  800,
+  400,
+  800
+)
+
+washing_cycles <- data.frame(t, omega)
+
+hot_cycles <- subset(washing_cycles, t > 40)
+print(hot_cycles)
+
+print(washing_cycles[2:4, 2]) # printing out values in the rows 2 to 4 in the second column
+
+which(t == 40)
+
+```
+
+### Sorting
+
+```{r label = "sorting"}
+librarian::shelf("dplyr")
+desc(omega) # sorts the values in descending order
+
+arrange(washing_cycles, omega) # sorts the values in ascending order
+
+```
+
+`r render_with_emojis("((ref:desc))")`, `r render_with_emojis("((ref:arrange))")`.
+
+### Totals
+
+```{r label = "adorn-totals"}
+t_0 <- c(
+  "5/23/2022 15:33:00",
+  "5/23/2022 18:00:00",
+  "5/25/2022 17:44:00",
+  "5/29/2022 17:05:00",
+  "6/1/2022 17:36:00",
+  "6/4/2022 17:56:00",
+  "6/5/2022 17:28:00",
+  "6/10/2022 13:52:00",
+  "6/10/2022 15:30:00",
+  "6/10/2022 17:31:00",
+  "6/23/2022 17:31:00",
+  "6/24/2022 14:11:00",
+  "6/24/2022 16:12:00",
+  "6/24/2022 17:49:00",
+  "6/25/2022 14:25:00",
+  "6/25/2022 16:15:00",
+  "6/29/2022 16:51:00",
+  "7/5/2022 0:15:00",
+  "7/5/2022 1:53:00",
+  "7/6/2022 17:26:00",
+  "7/6/2022 22:30:00",
+  "7/7/2022 3:18:00",
+  "7/12/2022 18:00:00",
+  "7/13/2022 18:18:00",
+  "7/14/2022 16:22:00",
+  "7/17/2022 15:33:00",
+  "7/18/2022 20:14:00",
+  "7/21/2022 18:06:00",
+  "7/26/2022 0:41:00",
+  "7/26/2022 14:59:00"
+)
+
+V_H2O <- c(
+  NA,
+  NA,
+  NA,
+  NA,
+  6.3,
+  NA,
+  NA,
+  6.8,
+  NA,
+  6.7,
+  6.8,
+  2.6,
+  6.5,
+  2.5,
+  6.7,
+  NA,
+  NA,
+  NA,
+  6.7,
+  6.6,
+  NA,
+  5.3,
+  NA,
+  1.5,
+  NA,
+  2.9,
+  NA,
+  NA,
+  NA,
+  NA
+)
+
+washing_cycles <- data.frame(t_0, V_H2O)
+librarian::shelf("janitor")
+adorn_totals(dat = washing_cycles, where = "row", fill = "", na.rm = TRUE, name = "Kokku", c(2))
+
+```
+
+`r render_with_emojis("((ref:adorn-totals))")`.
+
+### Sequencing
+
+```{r label = "seq"}
+seq(0, 14, 2)
+
+```
+
+## Rounding
+
+### Normal rounding
+
+```{r label = "round"}
+round(123.456, digits = 1)
+
+```
+
+
+### Significant digits
+
+For printing only significant digits, there's the function `signif` which takes two parameters: the initial number `x` and the number of significant digits `digits`:
+
+```{r label = "signif"}
+number <- 123.456
+
+number_with_significant_digits <- signif(x = number, digits = 4)
+print(number_with_significant_digits)
+
+```
+
+## Functions
+
+Functions can be made using the keyword `function`:
+
+```{r label = "function"}
+add <- function(first, second, digits = 2) {
+  return(signif(first + second, digits = digits))
+}
+
+add(first = 123, second = 456) # using the default value 2 for digits
+
+sum <- add(first = 123, second = 456, digits = 1)
+
+```
+
+## Comments
+
+Comments can be done with `#`:
+
+```{r label = "comment"}
+print(sum) # printing out the value of sum
+
+```
+
+## Strings
+
+Strings can be written using either apostrophes or quotation marks.
+
+For substituting something inside a string, `gsub` can be used `r render_with_emojis("((ref:r))")`:
+
+```{r label = "gsub"}
+gsub("_", "\\_", array, fixed = TRUE)
+
+```
+
+Here, in order to preserve a backslash, it has to be escaped as otherwise, it escapes the underscore. If i'd turn off `fixed`, the function would work like with regular expressions.
+
+## Branching
+
+```{r label = "ifelse"}
+ifelse(is.na(NA), "Not Available", "Available")
+
+```
+
+## Table
+
+A table that isn't just in R code but designed and all can be created using `kable` and `kableExtra`. i also build a wrapper function `print_table` for that purpose so that i don't have to rewrite some general things from table to table. i have to pay attention that there can't be any underscores inside the table unless they are part of an eqation. My sample table is table \@ref(tab:table).
+
+```{r label = "table"}
+print_table(
+  table = sapply(data_frame, function(value) gsub("_", "\\_", value, fixed = TRUE)),
+  caption = "Caption."
+)
+
+```
+
+If i want to apply a function to all the values inside a data frame, i use `sapply` `r render_with_emojis(text = "((ref:lathiya-2022-sapply))")`:
+
+```{r label = "sapply"}
+sapply(data_frame, function(value) gsub("_", "\\_", value, fixed = TRUE))
+
+```
+
+
+Tables \@ref(tab:table-with-digits-default) and \@ref(tab:table-with-digits-nondefault) are for comparing the number of digits after comma. The table \@ref(tab:table-with-digits-default) has the default number of digits and the table \@ref(tab:table-with-digits-nondefault) has another number of digits in every number after comma.
+
+```{r label = "table-with-digits-default"}
+before <- c(358.805, 358.851, 358.851, 358.851, 358.851, 358.851, 358.851, 358.851, 358.851, 358.851, 358.851, 358.851, 358.851, 358.851, 358.851, 358.851, 358.851, 358.851, 358.851, 358.851, 358.851, 358.851, 358.851, 358.851, 358.851, 358.851, 358.851, 358.851, 358.851, 358.851, 358.851, 358.851)
+after <- c(358.83, 358.918, 358.851, 358.851, 358.851, 358.851, 358.851, 358.851, 358.851, 358.851, 358.851, 358.851, 358.851, 358.851, 358.851, 358.851, 358.851, 358.851, 358.851, 358.851, 358.851, 358.851, 358.851, 358.851, 358.851, 358.851, 358.851, 358.851, 358.851, 358.851, 358.851, 358.851)
+water_report <- data.frame(before, after)
+
+colnames(water_report) <- c(
+  "$\\mathrm{\\frac{\\text{Used water before}}{\\mathrm{m^3}}}$",
+  "$\\mathrm{\\frac{\\text{Used water after}}{\\mathrm{m^3}}}$"
+)
+
+print_table(
+  table = water_report,
+  caption = "Water report with numbers with up to two digits after comma."
+)
+
+```
+
+Inside the table, backslashes must be escaped.
+
+```{r label = "table-with-digits-nondefault"}
+print_table(
+  table = water_report,
+  caption = "Water report with numbers with up to four digits after comma.",
+  digits = 4
+)
+
+```
+
+It's also possible for the table to have an additional header whose columns span over multiple columns in the first header `r render_with_emojis(text = "((ref:add-header-above))")`:
+
+```{r label = "table-with-additional-header"}
+print_table(
+  table = water_report,
+  caption = "Water report with additional header.",
+  additional_header = c("Spanned header" = 2)
+)
+
+```
+
+It's possible to change the look of a row:
+
+```{r label = "table-with-row-specification"}
+print_table(
+  table = water_report,
+  caption = "Water report with coloured row."
+) %>%
+  row_spec(2, color = "teal")
+
+```
+
+Here, `%>%` means piping.
+
+And it's possible to change the look of a column:
+
+```{r label = "table-with-column-specification"}
+print_table(
+  table = water_report,
+  caption = "Water report with wider column."
+) %>%
+  column_spec(1, width = "16em")
+
+```
+
+And what if the table is too wide:
+
+```{r label = "table-with-landscape"}
+print_table(
+  table = water_report,
+  caption = "Water report as landscape."
+) %>%
+  landscape()
+
+```
+
+Linked footnotes don't work with `kable`. Footnotes can be created like this:
+
+```{r label = "footnotes"}
+
+DATA_FRAME_OF_COMPARISON <- data.frame(
+  0.3
+)
+
+colnames(DATA_FRAME_OF_COMPARISON) <- c(
+  paste("$\\frac{T_\\text{dew}}{}$", footnote_marker_number(1))
+)
+
+print_table(
+  table = DATA_FRAME_OF_COMPARISON,
+  caption = "Water report with a footnote.",
+  footnotes = c(
+    "juhendi tabel 5.1" # 1
+  )
+)
+
+```
+
+`threeparttable` must be set to `TRUE` for just in case the footnote is too long for the width of the paper `r render_with_emojis(text = "((ref:footnote))")`.
+
+By default, i feed one-dimensional arrays to data frame and the values of these arrays will be displayed from to to down. If i want them to be displayed from left to right, i have to transform the table:
+
+```{r label = "t"}
+
+DATA_FRAME_OF_COMPARISON <- data.frame(
+  0.3
+)
+
+rownames(DATA_FRAME_OF_COMPARISON) <- c(
+  "\"Pasco\" ilmajaam"
+)
+
+colnames(DATA_FRAME_OF_COMPARISON) <- c(
+  paste("$\\frac{T_\\text{dew}}{}$", footnote_marker_number(1))
+)
+
+print_table(
+  DATA_FRAME_OF_COMPARISON,
+  caption = "Table with rows and columns exchanged.",
+  do_i_transpose = TRUE
+)
+
+```
+
+## Exponents and logarithms
+
+$$e^1$$
+
+```{r label = "e"}
+exp(1)
+
+```
+
+$$\mathrm{ln}(e)$$
+
+```{r label = "log"}
+log(exp(1))
+
+```
+
+## Importing data
+
+```{r label = "read-table", eval = FALSE}
+CO2_in_air <- read.table("co2_brw_surface-insitu_1_ccgg_DailyData.txt", header = TRUE, sep = "", dec = ".")
+
+```
+
+## Plotting
+
+An example of plotting data is putting data points to the plot - visible on the figure \@ref(fig:ggplot). The packages:
+
+`ggplot2`
+: for plotting
+
+`latex2exp`
+: for using `r render_nonmath_LaTeX_string_universal("\\LaTeX")` strings in labels
+
+The parameters:
+
+`data`
+: the data table
+
+`aes`
+: the function that describes axis
+
+`x`
+: data array for *x* axis
+
+`y`
+: data array for *y* axis
+
+`geom_point`
+: the function for plotting data points
+
+`labs`
+: the function for creating labels for axis
+
+`TeX`
+: the function for converting `r render_nonmath_LaTeX_string_universal("\\LaTeX")` strings in labels
+
+```{r label = "ggplot", fig.cap="Washing cycles."}
+librarian::shelf(c(
+  "ggplot2",
+  "latex2exp"
+))
+
+ggplot(data = washing_cycles, aes(x = t, y = omega)) + geom_point() +
+  labs(x = TeX("$\\frac{t}{\\degree C}$"), y = TeX("$\\frac{\\omega}{\\frac{\\tau}{min}}$"))
+
+```

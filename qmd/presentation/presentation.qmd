@@ -1,0 +1,156 @@
+---
+author:
+  - name: Jan Erik Reppo
+  - name: 'peacecop kalmer:'
+bibliography: presentation.bib
+title: "Presentations"
+output-file: ../../_book/presentation.html
+format:
+  revealjs:
+    self-contained: true
+
+---
+
+## *Quarto*
+
+- does not link between files,
+- every presentation is separate,
+- look so much better than *bookdown*-presentations.
+
+## Setup
+
+1. For every presentation a subfolder inside the subfolder *qmd*.
+
+2. Link to the presentation in *js.js*:
+
+```
+  let nameOfPresentation = "<name-of-presentation>";
+  createLink(div, "presentation-" + nameOfPresentation, nameOfPresentation + ".html", "<The title of the presentation>");
+
+```
+
+## Metadata: author
+
+```
+    author:
+      - name: <the name of the first author>
+      - name: '<the name of the second author>'
+    <further names if necessary>
+
+```
+
+## Metadata: title
+
+```
+    title: "<The title of the presentation>"
+
+```
+
+## Metadata: output file
+
+```
+    output-file: ../../_book/<the-name-of-the-output-file>.html
+
+```
+
+## Metadata: format
+
+```
+    format:
+      revealjs:
+        self-contained: true
+
+```
+
+`self-contained: false` results with missing files or undated content
+
+## Figures
+
+With a caption:
+
+```
+![Pillikeel ja lainepikkus.](vibstr1.gif)
+
+```
+
+![Pillikeel ja lainepikkus.](vibstr1.gif)
+
+Without a caption:
+
+```
+![](vibstr1.gif)
+
+```
+
+![](vibstr1.gif)
+
+## Managing external references
+
+A separate BIB-file in the subfolder of the presentation with records like this:
+
+```
+@misc{silent,
+  title = {Silent Teacher},
+  url = {https://silentteacher.toxicode.fr/},
+  urldate = {2022-09-29},
+  organization = {silentteacher.toxicode.fr}
+}
+
+```
+
+In the metadata:
+
+```
+    bibliography: <the-name-of-the-presentation>.bib
+
+```
+
+A reference:
+
+```
+@silent
+
+```
+
+@silent
+
+## List of references at the end
+
+```
+[<The name of the presentation>](index.html)
+
+```
+
+````
+## External references
+
+```{=tex}
+\hyphenpenalty=10000
+\fontspec{Symbola}
+
+```
+
+````
+
+## List
+
+```
+-   no instructions
+
+-   no explanations
+
+```
+
+-   no instructions
+
+-   no explanations
+
+[Presentation](index.html)
+
+## External references
+
+```{=tex}
+\hyphenpenalty=10000
+\fontspec{Symbola}
+
+```
