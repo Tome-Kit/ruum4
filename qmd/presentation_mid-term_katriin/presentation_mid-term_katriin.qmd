@@ -1,10 +1,10 @@
 ---
 author:
-  - name: Jan Erik Reppo
+  - name: 'Katriin Kasela'
   - name: 'peacecop kalmer:'
-bibliography: presentation.bib
-title: "Presentations"
-output-file: ../../_book/presentation.html
+bibliography: presentation_mid-term_katriin.bib
+title: "Ruum4 group name: nelJapäevalised"
+output-file: presentation_mid-term_katriin.html
 format:
   revealjs:
     self-contained: true
