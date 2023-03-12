@@ -11,12 +11,6 @@ format:
 
 ---
 
-## *Quarto*
-
-- does not link between files,
-- every presentation is separate,
-- look so much better than *bookdown*-presentations.
-
 ## Setup
 
 1. For every presentation a subfolder inside the subfolder *qmd*.
