@@ -11,137 +11,55 @@ format:
 
 ---
 
-## Setup
+## ELU-orJenteerumismäng
 
-- mingi märksõna
+## TOPICS
 
-- veel mingi märksõna
+## 
+
+    Group members:
+    Supervisor(s)/Mentor(s)
+    Partner(s)
+
+
+## BACKGROUND AND DESCRIPTION OF THE PROJECT
+
+Teach the goals of sustainable development through study tracks
+Pay more attention to SDG
+World devastating situation
+Trails availability
+Increasing physical activity
+Out of the box thinking
 
 ![](tlu-logo.jpg){.absolute bottom=0 left=0 width="420"  height="161.5"}
 ![](LIFE_2020_Red_gradient_4x.png){.absolute bottom=0 right=0 width="200"  height="200"}
 
-## Metadata: author
+## IMPLEMENTATION OF ACTIVITIES
 
-```
-    author:
-      - name: <the name of the first author>
-      - name: '<the name of the second author>'
-    <further names if necessary>
+Different phases and tasks
 
-```
 
-## Metadata: title
+## STAKEHOLDERS OF THE PROJECT
+Trails can be used by all people who are willing and interested
+Teachers or youth workers offering non-formal learning opportunity
 
-```
-    title: "<The title of the presentation>"
+## BASIS OF RESEARCH
 
-```
+Research papers and various scientific articles in ETERA
+Reliable sources, used it before
 
-## Metadata: output file
 
-```
-    output-file: ../../_book/<the-name-of-the-output-file>.html
+## INTERDISCIPLINARITY
 
-```
 
-## Metadata: format
 
-```
-    format:
-      revealjs:
-        self-contained: true
+## TIMEFRAME OF THE PROJECT
 
-```
+Over two semesters
 
-`self-contained: false` results with missing files or undated content
 
-## Figures
+## PROJECT (GROUP) MID-TERM RESULTS
 
-With a caption:
+## FEEDBACK
 
-```
-![Pillikeel ja lainepikkus.](vibstr1.gif)
-
-```
-
-![Pillikeel ja lainepikkus.](vibstr1.gif)
-
-Without a caption:
-
-```
-![](vibstr1.gif)
-
-```
-
-![](vibstr1.gif)
-
-## Managing external references
-
-A separate BIB-file in the subfolder of the presentation with records like this:
-
-```
-@misc{silent,
-  title = {Silent Teacher},
-  url = {https://silentteacher.toxicode.fr/},
-  urldate = {2022-09-29},
-  organization = {silentteacher.toxicode.fr}
-}
-
-```
-
-In the metadata:
-
-```
-    bibliography: <the-name-of-the-presentation>.bib
-
-```
-
-A reference:
-
-```
-@silent
-
-```
-
-@silent
-
-## List of references at the end
-
-```
-[<The name of the presentation>](index.html)
-
-```
-
-````
-## External references
-
-```{=tex}
-\hyphenpenalty=10000
-\fontspec{Symbola}
-
-```
-
-````
-
-## List
-
-```
--   no instructions
-
--   no explanations
-
-```
-
--   no instructions
-
--   no explanations
-
-[Presentation](index.html)
-
-## External references
-
-```{=tex}
-\hyphenpenalty=10000
-\fontspec{Symbola}
-
-```
+## THANK YOU FOR LISTENING
