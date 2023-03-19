@@ -11,140 +11,62 @@ format:
 
 ---
 
-## Setup
-
-1. For every presentation a subfolder inside the subfolder *qmd*.
-
-2. Link to the presentation in *js.js*:
-
-```
-  let nameOfPresentation = "<name-of-presentation>";
-  createLink(div, "presentation-" + nameOfPresentation, nameOfPresentation + ".html", "<The title of the presentation>");
-
-```
-
-## Metadata: author
+## ELU-orJenteerumismäng
 
 ```
     author:
-      - name: <the name of the first author>
+      - name: <Katriin>
       - name: '<the name of the second author>'
-    <further names if necessary>
 
-```
 
-## Metadata: title
 
-```
-    title: "<The title of the presentation>"
+## TOPICS
 
-```
 
-## Metadata: output file
 
-```
-    output-file: ../../_book/<the-name-of-the-output-file>.html
+## 
 
-```
+    Group members:
+    Supervisor(s)/Mentor(s)
+    Partner(s)
 
-## Metadata: format
 
-```
-    format:
-      revealjs:
-        self-contained: true
+## BACKGROUND AND DESCRIPTION OF THE PROJECT
 
-```
+Teach the goals of sustainable development through study tracks
+Pay more attention to SDG
+World devastating situation
+Trails availability
+Increasing physical activity
+Out of the box thinking
 
-`self-contained: false` results with missing files or undated content
 
-## Figures
+## IMPLEMENTATION OF ACTIVITIES
 
-With a caption:
+Different phases and tasks
 
-```
-![Pillikeel ja lainepikkus.](vibstr1.gif)
 
-```
+## STAKEHOLDERS OF THE PROJECT
+Trails can be used by all people who are willing and interested
+Teachers or youth workers offering non-formal learning opportunity
 
-![Pillikeel ja lainepikkus.](vibstr1.gif)
+## BASIS OF RESEARCH
 
-Without a caption:
+Research papers and various scientific articles in ETERA
+Reliable sources, used it before
 
-```
-![](vibstr1.gif)
 
-```
+## INTERDISCIPLINARITY
 
-![](vibstr1.gif)
 
-## Managing external references
 
-A separate BIB-file in the subfolder of the presentation with records like this:
+## TIMEFRAME OF THE PROJECT
 
-```
-@misc{silent,
-  title = {Silent Teacher},
-  url = {https://silentteacher.toxicode.fr/},
-  urldate = {2022-09-29},
-  organization = {silentteacher.toxicode.fr}
-}
+Over two semesters
 
-```
 
-In the metadata:
+## PROJECT (GROUP) MID-TERM RESULTS
 
-```
-    bibliography: <the-name-of-the-presentation>.bib
+## FEEDBACK
 
-```
-
-A reference:
-
-```
-@silent
-
-```
-
-@silent
-
-## List of references at the end
-
-```
-[<The name of the presentation>](index.html)
-
-```
-
-````
-## External references
-
-```{=tex}
-\hyphenpenalty=10000
-\fontspec{Symbola}
-
-```
-
-````
-
-## List
-
-```
--   no instructions
-
--   no explanations
-
-```
-
--   no instructions
-
--   no explanations
-
-[Presentation](index.html)
-
-## External references
-
-```{=tex}
-\hyphenpenalty=10000
-\fontspec{Symbola}
-
-```
+## THANK YOU FOR LISTENING
