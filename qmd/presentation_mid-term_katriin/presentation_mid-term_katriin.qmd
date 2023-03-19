@@ -1,27 +1,24 @@
 ---
 author:
-  - name: 'Katriin Kasela'
-  - name: 'peacecop kalmer:'
+  - name: 'nelJapäevalised'
 bibliography: presentation_mid-term_katriin.bib
-title: "Ruum4 group name: nelJapäevalised"
+title: "Ruum4"
 output-file: presentation_mid-term_katriin.html
 format:
   revealjs:
     self-contained: true
+    theme: [olis.scss]
 
 ---
 
 ## Setup
 
-1. For every presentation a subfolder inside the subfolder *qmd*.
+- mingi märksõna
 
-2. Link to the presentation in *js.js*:
+- veel mingi märksõna
 
-```
-  let nameOfPresentation = "<name-of-presentation>";
-  createLink(div, "presentation-" + nameOfPresentation, nameOfPresentation + ".html", "<The title of the presentation>");
-
-```
+![](tlu-logo.jpg){.absolute bottom=0 left=0 width="420"  height="161.5"}
+![](LIFE_2020_Red_gradient_4x.png){.absolute bottom=0 right=0 width="200"  height="200"}
 
 ## Metadata: author
 
