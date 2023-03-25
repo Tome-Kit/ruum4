@@ -43,30 +43,42 @@ Out of the box thinking
 
 ## IMPLEMENTATION OF ACTIVITIES
 
-Different phases and tasks
+Different phases and tasks.
+Assignments are entered into MathCityMap.
+Rules we had to follow and the points that had to be observed.
+The final result of the project -tracks where tasks include mathematics, various sustainable development goals, outdoor object and a studyfield.
 
 
 ## STAKEHOLDERS OF THE PROJECT
-Trails can be used by all people who are willing and interested
-Teachers or youth workers offering non-formal learning opportunity
+Trails can be used by all people who are willing and interested.
+Teachers or youth workers offering non-formal learning opportunity.
 
 ## BASIS OF RESEARCH
 
-Research papers and various scientific articles in ETERA
-Reliable sources, used it before
+Research papers and various scientific articles in ETERA.
+Reliable sources, have used it before.
 
 
 ## INTERDISCIPLINARITY
 
-
+By including the knowledge of different studyfields I can approach the solution of the problem from different perspectives.
+Different web pages during the project.
+RStudio program and through it we have also learned the R markdown language.
 
 ## TIMEFRAME OF THE PROJECT
 
 Over two semesters
-
+At the beginning of the first semester - focused on going through the tracks previously created by other people.
+In the middle of the semester - creating our own track assignments.
+By the beginning of the second semester - mainly working on correction and improvement.
+Currently working on getting our first track ready and having it tested.
 
 ## PROJECT (GROUP) MID-TERM RESULTS
+Six assignments that currently have a quality level of 1.
+In the future, it is necessary to improve the tasks sufficiently so that they reach the required quality level. When the track is ready for testing, it is necessary to find suitable testers.
 
 ## FEEDBACK
+Feedback meetings took place very rarely at the beginning, once or twice a week in the middle of the project, and at the moment as there is time and need.
+Discussed the next meetings, agreed on suitable times to complete the tracks and worked on the tasks.
 
 ## THANK YOU FOR LISTENING
