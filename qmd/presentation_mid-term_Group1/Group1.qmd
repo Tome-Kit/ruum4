@@ -3,24 +3,22 @@ author:
   - name: 'Group1'
 # bibliography: presentation_mid-term_Group1.bib
 title: |
-    | Project name orJenteerumismäng
+    | Ruum4
     
 output-file: presentation_mid-term_group1.html
 format:
   revealjs:
     self-contained: true
+    theme: [olis.scss]
+    slide-number: true
+    logo: logos.png
+    css: logo.css
 
 ---
 
-## Quarto
+## Something
 
-Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see <https://quarto.org/docs/presentations/>.
-
-## Bullets
-
-When you click the **Render** button a document will be generated that includes:
-
--   Content authored with markdown
--   Output from executable code
-
+![](tlu-logo.jpg){.absolute bottom=0 left=0 width="420"  height="161.5"}
+![](eu_regional_development_fund_horizontal.jpg){.absolute bottom=0 left=440 width="400"  height="231"}
+![](LIFE_2020_Red_gradient_4x.png){.absolute bottom=0 right=0 width="200"  height="200"}
 
