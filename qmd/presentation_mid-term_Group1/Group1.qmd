@@ -12,7 +12,7 @@ format:
 
 ---
 
-## Quarto
+## Presentation
 
 Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see <https://quarto.org/docs/presentations/>.
 
@@ -22,5 +22,19 @@ When you click the **Render** button a document will be generated that includes:
 
 -   Content authored with markdown
 -   Output from executable code
+
+## Stakeholders of the project
+
+This project will have impact on school education promoting math and other science subject popularity by means of competition and outdoor environment. Project will also raise attention on social problems of developing and developed countries through SDG fact informing. Task also will promote study fields of TLÜ through connection to students fields facts (like one trail will be connected to audiovisual media, other to traffic safety and so on). The target group would be science and socially interested people of all ages, but specifically school students. 
+
+## Basis of research
+
+SDG facts were researched through peer reviewed academic papers and science articles. The facts, regarding each study field of students, where brought by each student individual research and knowledge. Math facts were based on each students knowledge of school math course.
+
+## Feedback
+
+Feedback sessions took place every week. In these sessions we checked the made tasks and then fixed them. 
+
+
 
 
