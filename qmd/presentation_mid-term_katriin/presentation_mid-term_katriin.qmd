@@ -1,28 +1,19 @@
 ---
 author:
-  - name: 'Katriin Kasela'
-  - name: 'peacecop kalmer:'
+  - name: 'nelJapäevalised'
 bibliography: presentation_mid-term_katriin.bib
-title: "Ruum4 group name: nelJapäevalised"
+title: "Ruum4"
 output-file: presentation_mid-term_katriin.html
 format:
   revealjs:
     self-contained: true
+    theme: [olis.scss]
 
 ---
 
 ## ELU-orJenteerumismäng
 
-```
-    author:
-      - name: <Katriin>
-      - name: '<the name of the second author>'
-
-
-
 ## TOPICS
-
-
 
 ## 
 
@@ -40,6 +31,8 @@ Trails availability
 Increasing physical activity
 Out of the box thinking
 
+![](tlu-logo.jpg){.absolute bottom=0 left=0 width="420"  height="161.5"}
+![](LIFE_2020_Red_gradient_4x.png){.absolute bottom=0 right=0 width="200"  height="200"}
 
 ## IMPLEMENTATION OF ACTIVITIES
 

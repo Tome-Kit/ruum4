@@ -3,24 +3,47 @@ author:
   - name: 'Group1'
 # bibliography: presentation_mid-term_Group1.bib
 title: |
-    | Project name orJenteerumismäng
+    | Ruum4
     
 output-file: presentation_mid-term_group1.html
 format:
   revealjs:
     self-contained: true
+    theme: [olis.scss]
+    slide-number: true
+    logo: logos.png
+    css: logo.css
 
 ---
 
-## Quarto
+## Stakeholders of the project
 
-Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see <https://quarto.org/docs/presentations/>.
+This project will have impact on school education promoting math and other science subject popularity by means of competition and outdoor environment. Project will also raise attention on social problems of developing and developed countries through SDG fact informing. Task also will promote study fields of TLÜ through connection to students fields facts (like one trail will be connected to audiovisual media, other to traffic safety and so on). The target group would be science and socially interested people of all ages, but specifically school students. 
 
-## Bullets
+## Basis of research
 
-When you click the **Render** button a document will be generated that includes:
+SDG facts were researched through peer reviewed academic papers and science articles. The facts, regarding each study field of students, where brought by each student individual research and knowledge. Math facts were based on each students knowledge of school math course.
 
--   Content authored with markdown
--   Output from executable code
+## Feedback
 
+Feedback sessions took place every week. In these sessions we checked the made tasks and then fixed them. 
 
+## Interdisciplinarity
+
+-   Mostly based on knowledge of mathematics
+-   SDG fact implementation added social discipline
+-   Own field of study - by use of facts for tasks, not to directly influence the project
+
+## Time-frame of the project
+
+-   SEP22-OCT22 / Familiarization with tools and methods /done
+-   NOV22-DEC22 / Creation of tasks /incomplete
+-   JAN23-FEB23 / Creation of trails and testing /incomplete
+-   MAR23-MAY23 / Compiling trails by people outside the project and final reporting /incomplete
+
+## Project (group) mid-term results
+
+-   23 of planned 48 tasks are created (7 are approved) - 14.6% success
+-   0 trails are ready (of 12 planed) - 0% success
+-   8 out of 12 students left the project - 66.6% success
+-   \~7 trails played by each participant (one known trail to play, so - 87.5% success)
