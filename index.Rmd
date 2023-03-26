@@ -6,7 +6,9 @@ colorlinks: TRUE
 date: "`r Sys.Date()`"
 description: "academic paper on our LEARNING-INTERDISCIPLINARY-FOCUSED-ENVIRONMENT-project *Ruum4*"
 lang: en
-title: "Ruum4"
+include-before:
+    - \input{title-page.tex}
+title: "`r if (knitr::is_latex_output()) { '' } else { 'Ruum4' }`"
 
 documentclass: book
 papersize: a4
@@ -19,6 +21,7 @@ mainfont: DejaVu Serif # for displaying both Chinese symbols and emojis
 CJKmainfont: Droid Sans Fallback
 
 bibliography: [references.bib]
+csl: apa-numeric-superscript-brackets.csl
 link-citations: yes
 
 lof: yes
@@ -167,23 +170,4 @@ render_with_emojis <- function(text) {
 
 ```
 
-# Introduction
-
-Once upon a time, a student asked me to help him in R. i had no experience with R, however i gave it a chance. i installed RStudio Server. Months passed after my first use until i needed it for my stuff. i was studying statistics in a university and our teacher wanted us to create our solutions using a spreadsheet program. i saw that using R, i could learn more useful stuff and moved on RStudio Server. i learnt to create output using *bookdown* which is a library that can be used for creating websites or e-books while including calculations and graphs. As *bookdown* has a steap learning curve, i want to elaborate it here. Template strings are marked with angle brackets.
-
-For me, regarding cross-references, the following things are important:
-
-1. It must be possible to cross-reference between files.
-
-2. R code in one file must be accessible in another file.
-
-3. Citations in table captions using `kableStyling` must be possible.
-
-Currently, *bookdown* supports all of them.
-
-we can see the workflow of from the written markdown to the ready output on the figure \@ref(fig:workflow).
-
-```{r label = "workflow", fig.cap = paste("The workflow from the written markdown to the ready output using *bookdown*", render_with_emojis(text = "((ref:riederer-122))"), ".", sep = "")}
-include_external_graphics("rmd/workflow.png")
-
-```
+# Introduction {.unnumbered}

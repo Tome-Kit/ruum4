@@ -4,14 +4,16 @@ author:
 # bibliography: presentation_mid-term_Group1.bib
 title: |
     | Ruum4
+institute: Tallinn University
+date: 2023-03-27
     
 output-file: presentation_mid-term_group1.html
 format:
   revealjs:
     self-contained: true
-    theme: [olis.scss]
+    theme: [../olis.scss]
     slide-number: true
-    logo: logos.png
+    logo: ../logos.png
 multiplex:
   url: 'http://manual-for-rstudio.tennis24.ee:1948/'
   secret: "16759825730498538629"

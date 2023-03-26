@@ -38,9 +38,13 @@ function setTargets() {
   document.getElementById("book-source").target = "GitHub";
   
   let div = document.getElementById("main-nav").getElementsByTagName("nav")[0].getElementsByClassName("book-extra")[0];
-  createLink(div, "book-print", "en.pdf", "View printable book");
-  let nameOfPresentation = "presentation";
-  createLink(div, "presentation-" + nameOfPresentation, nameOfPresentation + ".html", "Presentation");
+  createLink(div, "book-print", "ruum4.pdf", "View printable book");
+  let nameOfPresentation = "presentation_mid-term_group1";
+  createLink(div, "presentation-" + nameOfPresentation, "qmd/" + nameOfPresentation + "/" + nameOfPresentation + ".html", "Group 1");
+  createLink(div, "presentation-speaker-" + nameOfPresentation, "qmd/" + nameOfPresentation + "/" + nameOfPresentation + "-speaker.html", "Remote control");
+  nameOfPresentation = "presentation_mid-term_katriin";
+  createLink(div, "presentation-" + nameOfPresentation, "qmd/" + nameOfPresentation + "/" + nameOfPresentation + ".html", "nelJapäevalised");
+  createLink(div, "presentation-speaker-" + nameOfPresentation, "qmd/" + nameOfPresentation + "/" + nameOfPresentation + "-speaker.html", "Remote control");
 }
 
 window.onload = function () {
