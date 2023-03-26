@@ -86,6 +86,10 @@ Currently working on getting our first track ready and having it tested.
 Six assignments that currently have a quality level of 1.
 In the future, it is necessary to improve the tasks sufficiently so that they reach the required quality level. When the track is ready for testing, it is necessary to find suitable testers.
 
+## Task management
+
+![Example of our task management[@ruum4xlsx, Tasks].](../task-management-2023-03-27-00-16-40.png)
+
 ## FEEDBACK
 Feedback meetings took place very rarely at the beginning, once or twice a week in the middle of the project, and at the moment as there is time and need.
 Discussed the next meetings, agreed on suitable times to complete the tracks and worked on the tasks.
@@ -93,6 +97,21 @@ Discussed the next meetings, agreed on suitable times to complete the tracks and
 ## Open Science Framework
 
 ![As the main door to our project both internally and externally has been serving Open Science Framework[@_2022_ruum4].](../osf-2023-03-26-05-33-00.png)
+
+## Tools in use
+
+![](../osf.png){width="20%" height="20%"}[@download]
+![](../Nextcloud_Logo.svg.png){width="20%" height="20%"}[@a2018_nextcloud]
+![](../tlu_ar_logo.png){width="20%" height="20%"}[@avaleht]
+![](../onlyoffice.svg){width="312px" height="60px"}[@onlyoffice]
+![](../openproject_detail_logo.svg){width="355px" height="67px"}[@openproject_logo]
+![](../mcm.jpg){width="20%" height="20%"}[@mcm_logo]
+![](../whitebophir_169519.webp){width="64px" height="64px"}[@whitebophir]
+![](../Poweredby_Jitsi_logo_grey_horizontal_genie_04_2020_grey.png){width="200px" height="63px"}[@a2020]
+![](../yt_logo_rgb_light.png){width="20%" height="20%"}[@yt]
+![](../RStudio-Logo.svg){width="20%" min-width="70px" height="20%"}[@a2023]
+![](../mybib-icon-filled-256.webp){width="10%" height="10%"}[@mybib]
+![](../quarto.png){width="167px" height="40px"}[@quarto]
 
 ## THANK YOU FOR LISTENING
 

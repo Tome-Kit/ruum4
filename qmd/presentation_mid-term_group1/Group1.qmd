@@ -2,8 +2,7 @@
 author:
   - name: 'Group 1'
 # bibliography: presentation_mid-term_Group1.bib
-title: |
-    | Ruum4
+title: Ruum4
 institute: Tallinn University
 date: 2023-03-27
 
@@ -65,9 +64,28 @@ Feedback sessions took place every week. In these sessions we checked the made t
 -   8 out of 12 students left the project - 66.6% success
 -   \~7 trails played by each participant (one known trail to play, so - 87.5% success)
 
+## Task management
+
+![Example of our task management[@ruum4xlsx, Tasks].](../task-management-2023-03-27-00-16-40.png)
+
 ## Open Science Framework
 
 ![As the main door to our project both internally and externally has been serving Open Science Framework[@_2022_ruum4].](../osf-2023-03-26-05-33-00.png)
+
+## Tools in use
+
+![](../osf.png){width="20%" height="20%"}[@download]
+![](../Nextcloud_Logo.svg.png){width="20%" height="20%"}[@a2018_nextcloud]
+![](../tlu_ar_logo.png){width="20%" height="20%"}[@avaleht]
+![](../onlyoffice.svg){width="312px" height="60px"}[@onlyoffice]
+![](../openproject_detail_logo.svg){width="355px" height="67px"}[@openproject_logo]
+![](../mcm.jpg){width="20%" height="20%"}[@mcm_logo]
+![](../whitebophir_169519.webp){width="64px" height="64px"}[@whitebophir]
+![](../Poweredby_Jitsi_logo_grey_horizontal_genie_04_2020_grey.png){width="200px" height="63px"}[@a2020]
+![](../yt_logo_rgb_light.png){width="20%" height="20%"}[@yt]
+![](../RStudio-Logo.svg){width="20%" min-width="70px" height="20%"}[@a2023]
+![](../mybib-icon-filled-256.webp){width="10%" height="10%"}[@mybib]
+![](../quarto.png){width="167px" height="40px"}[@quarto]
 
 [Ruum4](/)
 
