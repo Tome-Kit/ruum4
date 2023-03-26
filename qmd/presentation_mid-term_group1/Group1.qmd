@@ -29,6 +29,10 @@ multiplex:
 
 This project will have impact on school education promoting math and other science subject popularity by means of competition and outdoor environment. Project will also raise attention on social problems of developing and developed countries through SDG fact informing. Task also will promote study fields of TLÜ through connection to students fields facts (like one trail will be connected to audiovisual media, other to traffic safety and so on). The target group would be science and socially interested people of all ages, but specifically school students. 
 
+## MathCityMap
+
+![MathCityMap is the platform we are creating learning trails on[@mathcitymap].](../mcm-2023-03-26-21-32-09.png)
+
 ## Basis of research
 
 SDG facts were researched through peer reviewed academic papers and science articles. The facts, regarding each study field of students, where brought by each student individual research and knowledge. Math facts were based on each students knowledge of school math course.
@@ -52,7 +56,7 @@ Feedback sessions took place every week. In these sessions we checked the made t
 
 ## OpenProject
 
-![The main tool for managing the project is OpenProject as it also makes it possible to use Gantt charts.[@openproject].](../openproject-2023-03-26 21-16-40.png)
+![The main tool for managing the project is OpenProject as it also makes it possible to use Gantt charts[@openproject].](../openproject-2023-03-26 21-16-40.png)
 
 ## Project (group) mid-term results
 
