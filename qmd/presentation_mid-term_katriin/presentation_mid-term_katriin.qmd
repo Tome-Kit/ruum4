@@ -75,6 +75,10 @@ In the middle of the semester - creating our own track assignments.
 By the beginning of the second semester - mainly working on correction and improvement.
 Currently working on getting our first track ready and having it tested.
 
+## OpenProject
+
+![The main tool for managing the project is OpenProject as it also makes it possible to use Gantt charts.[@openproject].](../openproject-2023-03-26 21-16-40.png)
+
 ## PROJECT (GROUP) MID-TERM RESULTS
 Six assignments that currently have a quality level of 1.
 In the future, it is necessary to improve the tasks sufficiently so that they reach the required quality level. When the track is ready for testing, it is necessary to find suitable testers.

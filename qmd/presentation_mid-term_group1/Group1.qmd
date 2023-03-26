@@ -50,6 +50,10 @@ Feedback sessions took place every week. In these sessions we checked the made t
 -   JAN23-FEB23 / Creation of trails and testing /incomplete
 -   MAR23-MAY23 / Compiling trails by people outside the project and final reporting /incomplete
 
+## OpenProject
+
+![The main tool for managing the project is OpenProject as it also makes it possible to use Gantt charts.[@openproject].](../openproject-2023-03-26 21-16-40.png)
+
 ## Project (group) mid-term results
 
 -   23 of planned 48 tasks are created (7 are approved) - 14.6% success
