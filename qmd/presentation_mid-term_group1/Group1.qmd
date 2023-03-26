@@ -68,6 +68,10 @@ Feedback sessions took place every week. In these sessions we checked the made t
 
 ![Example of our task management[@ruum4xlsx, Tasks].](../task-management-2023-03-27-00-16-40.png)
 
+## Time log
+
+![Spent hours on the project by users.](time-log-2023-03-27-01-07-56.png)
+
 ## Open Science Framework
 
 ![As the main door to our project both internally and externally has been serving Open Science Framework[@_2022_ruum4].](../osf-2023-03-26-05-33-00.png)

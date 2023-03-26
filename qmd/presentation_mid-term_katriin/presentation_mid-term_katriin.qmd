@@ -90,6 +90,10 @@ In the future, it is necessary to improve the tasks sufficiently so that they re
 
 ![Example of our task management[@ruum4xlsx, Tasks].](../task-management-2023-03-27-00-16-40.png)
 
+## Time log
+
+![Spent hours on the project by users.](time-log-2023-03-27-01-19-17.png)
+
 ## FEEDBACK
 Feedback meetings took place very rarely at the beginning, once or twice a week in the middle of the project, and at the moment as there is time and need.
 Discussed the next meetings, agreed on suitable times to complete the tracks and worked on the tasks.
