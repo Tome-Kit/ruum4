@@ -1,6 +1,6 @@
 ---
 author:
-  - name: 'Group1'
+  - name: 'Group 1'
 # bibliography: presentation_mid-term_Group1.bib
 title: |
     | Ruum4
@@ -12,7 +12,6 @@ format:
     theme: [olis.scss]
     slide-number: true
     logo: logos.png
-    # css: logo.css
 multiplex:
   url: 'http://manual-for-rstudio.tennis24.ee:1948/'
   secret: "16759825730498538629"
