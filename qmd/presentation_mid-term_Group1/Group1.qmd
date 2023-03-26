@@ -12,8 +12,12 @@ format:
     theme: [olis.scss]
     slide-number: true
     logo: logos.png
-    css: logo.css
-
+    # css: logo.css
+multiplex:
+  url: 'http://manual-for-rstudio.tennis24.ee:1948/'
+  secret: "16759825730498538629"
+  socketId: "f3edf0ff0d09982e"
+  
 ---
 
 ## Stakeholders of the project
