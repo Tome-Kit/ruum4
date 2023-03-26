@@ -6,7 +6,11 @@ title: |
     | Ruum4
 institute: Tallinn University
 date: 2023-03-27
-    
+
+bibliography: references.bib
+csl: ../../apa-numeric-superscript-brackets.csl
+link-citations: yes
+
 output-file: presentation_mid-term_group1.html
 format:
   revealjs:
@@ -52,3 +56,17 @@ Feedback sessions took place every week. In these sessions we checked the made t
 -   0 trails are ready (of 12 planed) - 0% success
 -   8 out of 12 students left the project - 66.6% success
 -   \~7 trails played by each participant (one known trail to play, so - 87.5% success)
+
+## Open Science Framework
+
+![As the main door to our project both internally and externally has been serving Open Science Framework[@_2022_ruum4].](../osf-2023-03-26-05-33-00.png)
+
+[Ruum4](/)
+
+## External references
+
+```{=tex}
+\hyphenpenalty=10000
+\fontspec{Symbola}
+
+```

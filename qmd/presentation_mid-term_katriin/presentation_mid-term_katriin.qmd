@@ -5,7 +5,9 @@ institute: Tallinn University
 date: 2023-03-27
 title: "Ruum4"
 
-bibliography: presentation_mid-term_katriin.bib
+bibliography: references.bib
+csl: ../../apa-numeric-superscript-brackets.csl
+link-citations: yes
 
 output-file: presentation_mid-term_katriin.html
 format:
@@ -81,4 +83,18 @@ In the future, it is necessary to improve the tasks sufficiently so that they re
 Feedback meetings took place very rarely at the beginning, once or twice a week in the middle of the project, and at the moment as there is time and need.
 Discussed the next meetings, agreed on suitable times to complete the tracks and worked on the tasks.
 
+## Open Science Framework
+
+![As the main door to our project both internally and externally has been serving Open Science Framework[@_2022_ruum4].](../osf-2023-03-26-05-33-00.png)
+
 ## THANK YOU FOR LISTENING
+
+[Ruum4](/)
+
+## External references
+
+```{=tex}
+\hyphenpenalty=10000
+\fontspec{Symbola}
+
+```
