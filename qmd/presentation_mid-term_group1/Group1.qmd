@@ -23,6 +23,19 @@ multiplex:
   socketId: "f3edf0ff0d09982e"
   
 ---
+## Background ofthe project
+
+Project is based on Sustainable Development Goals
+To Provide new Knowledge to the participnts
+To Use existing Knowledge from our Studies
+
+## Implementation of Activities
+
+Group sessions
+Trial Plays to develop task creation skills
+Feedback sessions
+Revision of created tasks
+
 
 ## Stakeholders of the project
 

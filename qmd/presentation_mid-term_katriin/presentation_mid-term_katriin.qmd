@@ -23,60 +23,73 @@ multiplex:
 
 ---
 
-## ELU-orJenteerumismäng
-
-## TOPICS
-
-## 
-
-    Group members:
-    Supervisor(s)/Mentor(s)
-    Partner(s)
-
-
 ## BACKGROUND AND DESCRIPTION OF THE PROJECT
 
-Teach the goals of sustainable development through study tracks
-Pay more attention to SDG
-World devastating situation
-Trails availability
-Increasing physical activity
-Out of the box thinking
+*Teach the goals of sustainable development through study tracks
+
+*Pay more attention to SDG
+
+*World devastating situation
+
+*Trails availability
+
+*Increasing physical activity
+
+*Out of the box thinking
+
 
 ## IMPLEMENTATION OF ACTIVITIES
 
-Different phases and tasks.
-Assignments are entered into MathCityMap.
-Rules we had to follow and the points that had to be observed.
-The final result of the project -tracks where tasks include mathematics, various sustainable development goals, outdoor object and a studyfield.
+*Different phases and tasks.
+
+*Assignments are entered into MathCityMap.
+
+*Rules we had to follow and the points that had to be observed.
+
+*The final result of the project -tracks where tasks include mathematics, various sustainable development goals, outdoor object and a studyfield.
 
 ## MathCityMap
 
-![MathCityMap is the platform we are creating learning trails on[@mathcitymap].](../mcm-2023-03-26-21-32-09.png)
+![](mucitymap.png)
 
 ## STAKEHOLDERS OF THE PROJECT
-Trails can be used by all people who are willing and interested.
-Teachers or youth workers offering non-formal learning opportunity.
+
+*Trails can be used by all people who are willing and interested.
+
+*Teachers or youth workers offering non-formal learning opportunity.
 
 ## BASIS OF RESEARCH
 
-Research papers and various scientific articles in ETERA.
-Reliable sources, have used it before.
+*Research papers and various scientific articles in ETERA.
 
+*Reliable sources, have used it before.
+
+![](../mybib.png)
 
 ## INTERDISCIPLINARITY
 
-By including the knowledge of different studyfields I can approach the solution of the problem from different perspectives.
-Different web pages during the project.
-RStudio program and through it we have also learned the R markdown language.
+*By including the knowledge of different studyfields I can approach the solution of the problem from different perspectives.
+
+*Different web pages during the project.
+
+*RStudio program and through it we have also learned the R markdown language.
+
+## RStudio
+
+![](rstudio.png)
 
 ## TIMEFRAME OF THE PROJECT
 
-Over two semesters
-At the beginning of the first semester - focused on going through the tracks previously created by other people.
-In the middle of the semester - creating our own track assignments.
-By the beginning of the second semester - mainly working on correction and improvement.
-Currently working on getting our first track ready and having it tested.
+*At the beginning of the first semester - different trails to get more ideas.
+
+*In the middle of the semester - creating our own track assignments.
+
+*Second semester - mainly working on correction and improvement.
+
+## PROJECT MID-TERM RESULTS
+*Six assignments that currently have a quality level of 1.
+
+*In the future, it is necessary to improve the tasks sufficiently so that they reach the required quality level. 
 
 ## OpenProject
 
@@ -89,6 +102,10 @@ In the future, it is necessary to improve the tasks sufficiently so that they re
 ## Task management
 
 ![Example of our task management[@ruum4xlsx, Tasks].](../task-management-2023-03-27-00-16-40.png)
+
+*Feedback meetings took place very rarely at the beginning, once or twice a week in the middle of the project, and at the moment as there is time and need.
+
+*Discussed the next meetings, agreed on suitable times to complete the tracks and worked on the tasks.
 
 ## Time log
 
